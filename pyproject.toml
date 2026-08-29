@@ -1,0 +1,17 @@
+[project]
+name = "customer-propensity-ml-system"
+version = "0.1.0"
+description = "A production-oriented machine learning system for customer propensity modeling."
+readme = "README.md"
+authors = [
+    { name = "Eduardo Luiz Zanotto" }
+]
+requires-python = ">=3.14"
+dependencies = []
+
+[build-system]
+requires = ["uv_build>=0.12.7,<0.13.0"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-name = "customer_propensity"

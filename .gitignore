@@ -1,0 +1,39 @@
+# Python virtual environments
+.venv/
+venv/
+
+# Python cache / compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Type checking / linting caches
+.mypy_cache/
+.pyright/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# IDE / editors
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
