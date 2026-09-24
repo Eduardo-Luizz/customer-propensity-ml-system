@@ -28,11 +28,11 @@ line-length = 100
 
 [tool.ruff.lint]
 select = [
-	"E",
-	"F",
-	"I",
-	"B",
-	"UP",
+    "E",
+    "F",
+    "I",
+    "B",
+    "UP",
 ]
 
 [tool.pyright]
